@@ -6,11 +6,6 @@ import com.example.administrator.androidmvp.bean.Student;
  * Created by Administrator on 2016/4/5.
  */
 public interface IStudentModel {
-//    void setId(int id);
-//
-//    void setName(String name);
-//
-//    void setSex(String sex);
 
     /**
      * 保存学生信息

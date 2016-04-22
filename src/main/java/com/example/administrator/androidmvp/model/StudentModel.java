@@ -17,21 +17,6 @@ public class StudentModel implements IStudentModel {
     private String sex;
     private SparseArray<Student> array = new SparseArray<>();
 
-//    @Override
-//    public void setId(int id) {
-//        this.id = id;
-//    }
-//
-//    @Override
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    @Override
-//    public void setSex(String sex) {
-//
-//        this.sex = sex;
-//    }
 
     @Override
     public void save(int id,String name,String sex) {

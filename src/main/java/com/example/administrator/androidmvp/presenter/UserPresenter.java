@@ -18,9 +18,6 @@ public class UserPresenter {
     }
 
     public void save(int id, String name, String sex) {
-//        iStudentModel.setId(id);
-//        iStudentModel.setName(name);
-//        iStudentModel.setSex(sex);
         iStudentModel.save(id,name,sex);
     }
 
