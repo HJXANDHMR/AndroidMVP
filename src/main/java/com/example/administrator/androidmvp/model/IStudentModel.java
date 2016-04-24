@@ -2,9 +2,7 @@ package com.example.administrator.androidmvp.model;
 
 import com.example.administrator.androidmvp.bean.Student;
 
-/**
- * Created by Administrator on 2016/4/5.
- */
+
 public interface IStudentModel {
 
     /**
@@ -13,7 +11,7 @@ public interface IStudentModel {
      * @param name 姓名
      * @param sex  性别
      */
-    void save(int id,String name,String sex);
+     void save(int id,String name,String sex);
 
     /**
      * 读取学生信息
