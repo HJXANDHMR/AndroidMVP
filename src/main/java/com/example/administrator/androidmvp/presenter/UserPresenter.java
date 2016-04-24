@@ -5,9 +5,7 @@ import com.example.administrator.androidmvp.model.IStudentModel;
 import com.example.administrator.androidmvp.model.StudentModel;
 import com.example.administrator.androidmvp.view.IMainView;
 
-/**
- * Created by Administrator on 2016/4/5.
- */
+
 public class UserPresenter {
     private IStudentModel iStudentModel;
     private IMainView iMainView;

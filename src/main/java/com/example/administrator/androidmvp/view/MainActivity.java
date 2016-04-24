@@ -9,9 +9,7 @@ import android.widget.EditText;
 import com.example.administrator.androidmvp.R;
 import com.example.administrator.androidmvp.presenter.UserPresenter;
 
-/**
- * Created by Administrator on 2016/4/5.
- */
+
 public class MainActivity extends Activity implements View.OnClickListener, IMainView {
 
     private EditText et_id;
