@@ -1,6 +1,8 @@
 package com.example.administrator.androidmvp.bean;
 
-
+/**
+ * bean
+ * /
 public class Student {
 
     private int id;
