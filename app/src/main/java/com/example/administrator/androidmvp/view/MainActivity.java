@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener, IMai
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         initView();
     }
 
@@ -33,8 +34,10 @@ public class MainActivity extends Activity implements View.OnClickListener, IMai
         et_sex = (EditText) findViewById(R.id.et_sex);
         bt_save = (Button) findViewById(R.id.bt_save);
         bt_load = (Button) findViewById(R.id.bt_load);
+
         bt_save.setOnClickListener(this);
         bt_load.setOnClickListener(this);
+
         userPresenter =new UserPresenter(this);
     }
 

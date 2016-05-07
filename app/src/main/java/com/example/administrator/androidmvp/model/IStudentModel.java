@@ -11,7 +11,7 @@ public interface IStudentModel {
      * @param name 姓名
      * @param sex  性别
      */
-     void save(int id,String name,String sex);
+     void save(int id, String name, String sex);
 
     /**
      * 读取学生信息
