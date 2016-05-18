@@ -1,2 +1,2 @@
 # AndroidMVP
-AndroidMVP demo。
+AndroidMVP 实例
