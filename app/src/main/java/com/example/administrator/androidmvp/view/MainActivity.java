@@ -24,7 +24,6 @@ public class MainActivity extends Activity implements View.OnClickListener, IMai
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
     }
 
